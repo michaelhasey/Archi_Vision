@@ -167,3 +167,6 @@ Training Dataset 3 - Sidewalk Quality
         - 104 images of various quality level sidewalks in Pittsburgh, PA.
         - hand collected from Google street view
         - hand labelled using image segmentation on SixGill platform
+        
+        
+        * Data available upon request
