@@ -153,7 +153,7 @@ Model 4: Sidewalk_object_detection.ipynb
 
 Summary:   
 
-Training Dataset 1 - Vacany Images
+Training Dataset 1 - Vacant vs Occupied Housing Images
         - 200 images in total (100 vacant, 100 occupied) of working class houses in Pittsburgh, PA.
         - Hand collected from Google street view 
         - manually labelled and sorted into corresponding folders 
