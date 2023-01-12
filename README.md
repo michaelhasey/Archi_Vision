@@ -1,6 +1,6 @@
 # Archi_Vision
 
-![](images/Splash.jpg)
+![](Images/Splash.jpg)
 
 Learning more about where we live
 
