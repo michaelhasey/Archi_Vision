@@ -2,7 +2,6 @@
 
 ![](Images/Splash.jpg)
 
-Learning more about where we live
 
 
 
@@ -18,7 +17,8 @@ As proof of concept, I used Pittsburgh as a test area and trained my models on 7
 
 # Models
 
-Summary:  4 different models were used for this experiment. 
+### Summary:  
+4 different models were used for this experiment. 
 
 ### Model 1: Untrained Image Classification Model
 
@@ -77,7 +77,8 @@ more accessible to cs and deep learning beginners.
   depending on predicted class.
 - This allows easy identification of predicted class of all images after model has run
    
-   
+  
+  
 ### Model 3: Trained Object Detection Model for Identifying Architectural Features
 
 ```
@@ -121,8 +122,9 @@ python "Arch_Features_object_detection.ipynb"
   threshold size when determining which prediction certainty rate (as shown in percentage) should 
   be used when making predictions and displaying results on image.
           
-          
-### Model 3: Trained Object Detection Model for Identifying Deteriorating Sidewalks
+   
+   
+### Model 4: Trained Object Detection Model for Identifying Deteriorating Sidewalks
 
 ```
 python "Sidewalks_Detectron2_object_detection.ipynb"
