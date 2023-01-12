@@ -66,7 +66,8 @@ more accessible to cs and deep learning beginners.
 python "Vacancy_Image_Classification_Prediction_Model.ipynb"
 ```
 
-![](Images/House_Detection.gif)
+<img src="./Images/House_Detection.gif#gh-light-mode-only" align="right" height="220" width="210" />
+
 
 - A single label classification model that uses the weights obtained in training model (model 1) 
   to detect whether a house appears to be occupied or vacant.
