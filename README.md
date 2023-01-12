@@ -21,7 +21,7 @@ As proof of concept, I used Pittsburgh as a test area and trained my models on 7
 
 - [GUI](#GUI)
 - [Models](#Models)
-- [Model 1: Vacant House Detection Training](#Model 1: Vacant House Detection Training)
+- [Model 1](#Model 1)
 - [Performance](#Performance)
 - [Acknowledgements](#Acknowledgements)
 - [References](#References)
@@ -41,6 +41,7 @@ The proposed GUI provides further ai transparency through white-box methods such
 ### Summary:  
 4 different models and corresponding notebooks were used for this experiment. 
 
+## Model 1
 
 ## Model 1: Vacant House Detection Training
 
