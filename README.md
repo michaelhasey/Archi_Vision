@@ -34,6 +34,8 @@ The proposed GUI provides further ai transparency through white-box methods such
 python "Vacancy_Image_Classification_Training_Model.ipynb"
 ```
 
+![](Images/vanacy_classifier.png)
+
 - A single label classification model used to train a convolutional neural network algorithm 
   to detect whether a house appears to be occupied or vacant.
 - The model is built upon the fastai framework and pytorch (pyimage) computer vision library
@@ -66,9 +68,6 @@ more accessible to cs and deep learning beginners.
 python "Vacancy_Image_Classification_Prediction_Model.ipynb"
 ```
 
-<img align="right" src="Images/House_Detection2.gif">
-
-
 - A single label classification model that uses the weights obtained in training model (model 1) 
   to detect whether a house appears to be occupied or vacant.
 - The model also labels and sorts images into folders with corresponding names.
@@ -77,8 +76,6 @@ python "Vacancy_Image_Classification_Prediction_Model.ipynb"
 online platform that makes building, using and manipulating deep learning algorithms easier and
 more accessible to cs and deep learning beginners.
 - https://docs.fast.ai/tutorial.vision.html#Single-label-classification
-
-<br clear="right"/>
 
 #### Code modification and additions
 
@@ -97,6 +94,10 @@ more accessible to cs and deep learning beginners.
 ```
 python "Arch_Features_object_detection.ipynb"
 ```
+
+
+<img align="right" src="Images/House_Detection2.gif">
+
 
 - This model uses Objectron 2, Facebook AI Research's next generation software system 
   that implements state-of-the-art object detection algorithms to detect and predict the type of
@@ -121,6 +122,8 @@ python "Arch_Features_object_detection.ipynb"
       different AI deep learning projects.  He provided the bulk of the below code and a great deal 
       of guidance and advice when learning how to run, impliment and adapt the below 
       objectron 2 code for this project.
+
+<br clear="right"/>
 
 #### Code modification and additions
 
