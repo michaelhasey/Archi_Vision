@@ -34,7 +34,7 @@ The proposed GUI provides further ai transparency through white-box methods such
 python "Vacancy_Image_Classification_Training_Model.ipynb"
 ```
 
-![](Images/vanacy_classifier.png)
+![](Images/vacancy_classifier.png)
 
 - A single label classification model used to train a convolutional neural network algorithm 
   to detect whether a house appears to be occupied or vacant.
