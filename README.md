@@ -41,7 +41,7 @@ The proposed GUI provides further ai transparency through white-box methods such
 ### Summary:  
 4 different models and corresponding notebooks were used for this experiment. 
 
-## Model 1
+### Model 1
 
 ## Model 1: Vacant House Detection Training
 
