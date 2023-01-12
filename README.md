@@ -21,12 +21,9 @@ As proof of concept, I used Pittsburgh as a test area and trained my models on 7
 
 - [GUI](#GUI)
 - [Models](#Models)
-- [Model 1](#Model-1:/Training-for-Vacant-House-Detection)
-- [Performance](#Performance)
-- [Acknowledgements](#Acknowledgements)
+- [Datasets](#Datasets)
 - [References](#References)
 - [Citation](#Citation)
-- [To-Do](#To-Do)
 
 
 ## GUI
@@ -231,3 +228,23 @@ python "Sidewalks_Detectron2_object_detection.ipynb"
         
         
         * Data available upon request
+
+## References
+
+1. https://docs.fast.ai/tutorial.vision.html#Single-label-classification
+2. https://github.com/facebookresearch/detectron2
+3. www.sixgill.com
+4. https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5
+
+
+## Citation
+
+If you find our work and dataset useful in your research, please consider citing:
+
+``` 
+@misc{mhasey2021,
+    title={Archi_Vision},
+    author={Michael Hasey},
+    year={2021},
+}
+```
