@@ -15,6 +15,9 @@ As proof of concept, I used Pittsburgh as a test area and trained my models on 7
 
 ![](Images/houses.png)
 
+
+## GUI
+
 The proposed GUI provides further ai transparency through white-box methods such as prediction and data visualizations and simple explanations, required human input to correct model prediction mistakes or uncertainties therefore building trust in the model, both baseline and expert model adjustment capabilities, therefore staisfying the needs of users with varying ai or cs knowledge, and easy to understand prompts and suggestions regarding determining the appropriate model and settings to satisfy particular goals.
 
 ![](Images/gui.png)
