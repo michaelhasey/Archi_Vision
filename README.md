@@ -66,7 +66,7 @@ more accessible to cs and deep learning beginners.
 python "Vacancy_Image_Classification_Prediction_Model.ipynb"
 ```
 
-![](Images/House_Detection.gif)&nbsp;&nbsp;&nbsp;&nbsp;
+![](Images/House_Detection.gif){: height="75px" width="300px" align="left"}
 
 
 - A single label classification model that uses the weights obtained in training model (model 1) 
