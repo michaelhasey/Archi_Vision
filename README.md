@@ -16,6 +16,19 @@ As proof of concept, I used Pittsburgh as a test area and trained my models on 7
 ![](Images/houses.png)
 
 
+
+## Table of Contents
+
+- [GUI](#GUI)
+- [Models](#Models)
+- [Model 1: Vacant House Detection Training](#Model 1: Vacant House Detection Training)
+- [Performance](#Performance)
+- [Acknowledgements](#Acknowledgements)
+- [References](#References)
+- [Citation](#Citation)
+- [To-Do](#To-Do)
+
+
 ## GUI
 
 The proposed GUI provides further ai transparency through white-box methods such as prediction and data visualizations and simple explanations, required human input to correct model prediction mistakes or uncertainties therefore building trust in the model, both baseline and expert model adjustment capabilities, therefore staisfying the needs of users with varying ai or cs knowledge, and easy to understand prompts and suggestions regarding determining the appropriate model and settings to satisfy particular goals.
@@ -28,11 +41,14 @@ The proposed GUI provides further ai transparency through white-box methods such
 ### Summary:  
 4 different models and corresponding notebooks were used for this experiment. 
 
-### Model 1: Untrained Image Classification Model
+
+## Model 1: Vacant House Detection Training
 
 ```
 python "Vacancy_Image_Classification_Training_Model.ipynb"
 ```
+
+#### Model Overview
 
 - A single label classification model used to train a convolutional neural network algorithm 
   to detect whether a house appears to be occupied or vacant.
@@ -60,13 +76,15 @@ more accessible to cs and deep learning beginners.
 
  
  
-### Model 2: Trained Image Classification Model for Identifying Vacant Houses
+## Model 2: Detecting Vacant Houses
 
 ```
 python "Vacancy_Image_Classification_Prediction_Model.ipynb"
 ```
 
 ![](Images/vacancy.png)
+
+#### Model Overview
 
 - A single label classification model that uses the weights obtained in training model (model 1) 
   to detect whether a house appears to be occupied or vacant.
@@ -89,7 +107,7 @@ more accessible to cs and deep learning beginners.
    
   
   
-### Model 3: Trained Object Detection Model for Identifying Architectural Features
+## Model 3: Detecting Architectural Features
 
 ```
 python "Arch_Features_object_detection.ipynb"
@@ -100,6 +118,8 @@ python "Arch_Features_object_detection.ipynb"
 <br clear="left"/>
 
 ### 
+
+#### Model Overview
 
 - This model uses Objectron 2, Facebook AI Research's next generation software system 
   that implements state-of-the-art object detection algorithms to detect and predict the type of
@@ -140,7 +160,7 @@ python "Arch_Features_object_detection.ipynb"
           
    
    
-### Model 4: Detecting Cracks in Sidewalk
+## Model 4: Detecting Cracks in Sidewalks
 
 ```
 python "Sidewalks_Detectron2_object_detection.ipynb"
@@ -148,6 +168,10 @@ python "Sidewalks_Detectron2_object_detection.ipynb"
 <img align="left" src="Images/crack_detection.gif">
 
 <br clear="left"/>
+
+### 
+
+#### Model Overview
 
 - This model uses Objectron 2, Facebook AI Research's next generation software system 
   that implements state-of-the-art object detection algorithms to predict and classify sidwalk quality
@@ -189,7 +213,7 @@ python "Sidewalks_Detectron2_object_detection.ipynb"
 
 
 
-## Data
+## Datasets
 
 #### Training Dataset 1 - Vacant vs Occupied Housing Images
 - 200 images in total (100 vacant, 100 occupied) of working class houses in Pittsburgh, PA.
