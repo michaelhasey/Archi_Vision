@@ -91,14 +91,11 @@ more accessible to cs and deep learning beginners.
   
 ### Model 3: Trained Object Detection Model for Identifying Architectural Features
 
+<img align="left" src="Images/House_Detection2.gif">
 ```
 python "Arch_Features_object_detection.ipynb"
 ```
-
-
-<img align="right" src="Images/House_Detection2.gif">
-
-
+<br clear="left"/>
 - This model uses Objectron 2, Facebook AI Research's next generation software system 
   that implements state-of-the-art object detection algorithms to detect and predict the type of
   architectural features (either door, window or general building volume) are present in images 
@@ -122,8 +119,6 @@ python "Arch_Features_object_detection.ipynb"
       different AI deep learning projects.  He provided the bulk of the below code and a great deal 
       of guidance and advice when learning how to run, impliment and adapt the below 
       objectron 2 code for this project.
-
-<br clear="right"/>
 
 #### Code modification and additions
 
