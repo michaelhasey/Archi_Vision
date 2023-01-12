@@ -99,6 +99,7 @@ python "Arch_Features_object_detection.ipynb"
 
 <br clear="left"/>
 
+- .
 - This model uses Objectron 2, Facebook AI Research's next generation software system 
   that implements state-of-the-art object detection algorithms to detect and predict the type of
   architectural features (either door, window or general building volume) are present in images 
