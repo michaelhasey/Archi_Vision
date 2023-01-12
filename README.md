@@ -23,7 +23,7 @@ The proposed GUI provides further ai transparency through white-box methods such
 ![](Images/gui.png)
 
 
-# Models
+## Models
 
 ### Summary:  
 4 different models and corresponding notebooks were used for this experiment. 
@@ -140,12 +140,15 @@ python "Arch_Features_object_detection.ipynb"
           
    
    
-### Model 4: Trained Object Detection Model for Identifying Deteriorating Sidewalks
+### Model 4: Detecting Cracks in Sidewalk
 
 ```
 python "Sidewalks_Detectron2_object_detection.ipynb"
 ```
-        
+<img align="left" src="Images/crack_detection.gif">
+
+<br clear="left"/>
+
 - This model uses Objectron 2, Facebook AI Research's next generation software system 
   that implements state-of-the-art object detection algorithms to predict and classify sidwalk quality
   in images of residential streets around Pittsburgh.
