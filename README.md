@@ -66,7 +66,7 @@ more accessible to cs and deep learning beginners.
 python "Vacancy_Image_Classification_Prediction_Model.ipynb"
 ```
 
-![](Images/House_Detection.gif){: height="75px" width="300px" align="left"}
+<img align="left" src="Images/House_Detection.gif">
 
 
 - A single label classification model that uses the weights obtained in training model (model 1) 
@@ -77,6 +77,8 @@ python "Vacancy_Image_Classification_Prediction_Model.ipynb"
 online platform that makes building, using and manipulating deep learning algorithms easier and
 more accessible to cs and deep learning beginners.
 - https://docs.fast.ai/tutorial.vision.html#Single-label-classification
+
+<br clear="left"/>
 
 #### Code modification and additions
 
