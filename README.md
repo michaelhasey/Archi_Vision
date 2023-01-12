@@ -21,7 +21,7 @@ As proof of concept, I used Pittsburgh as a test area and trained my models on 7
 
 - [GUI](#GUI)
 - [Models](#Models)
-- [Model 1](#Model-1)
+- [Model 1](#Model-1:-Training-for-Vacant-House-Detection)
 - [Performance](#Performance)
 - [Acknowledgements](#Acknowledgements)
 - [References](#References)
@@ -41,9 +41,7 @@ The proposed GUI provides further ai transparency through white-box methods such
 ### Summary:  
 4 different models and corresponding notebooks were used for this experiment. 
 
-### Model 1
-
-## Model 1: Vacant House Detection Training
+### Model 1: Training for Vacant House Detection
 
 ```
 python "Vacancy_Image_Classification_Training_Model.ipynb"
@@ -77,7 +75,7 @@ more accessible to cs and deep learning beginners.
 
  
  
-## Model 2: Detecting Vacant Houses
+### Model 2: Detecting Vacant Houses
 
 ```
 python "Vacancy_Image_Classification_Prediction_Model.ipynb"
@@ -108,7 +106,7 @@ more accessible to cs and deep learning beginners.
    
   
   
-## Model 3: Detecting Architectural Features
+### Model 3: Detecting Building Features
 
 ```
 python "Arch_Features_object_detection.ipynb"
@@ -161,7 +159,7 @@ python "Arch_Features_object_detection.ipynb"
           
    
    
-## Model 4: Detecting Cracks in Sidewalks
+### Model 4: Detecting Sidewalk Cracks
 
 ```
 python "Sidewalks_Detectron2_object_detection.ipynb"
