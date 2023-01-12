@@ -26,7 +26,7 @@ The proposed GUI provides further ai transparency through white-box methods such
 # Models
 
 ### Summary:  
-4 different models were used for this experiment. 
+4 different models and corresponding notebooks were used for this experiment. 
 
 ### Model 1: Untrained Image Classification Model
 
