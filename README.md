@@ -7,7 +7,7 @@ Learning more about where we live
 
 
 
-# About 
+## About 
 
 Archi-Vision is an AI tool that helps us learn more about urban housing and its relationship to the city.  Traditionally, housing data has been collected manually and contains few descriptors beyond house price, sqft, # of bathrooms,and so on.  As a result, housing remains largely undescribed and our understanding of its relationship to the city incomplete. Archi-Vision attempts to solve this by using Deep learning methods (object detection & classification) to rapidly extract far more detailed image-based housing data over larger areas than previously possible.
 
@@ -36,7 +36,7 @@ online platfor that makes building, using and manipulating deep learning algorit
 more accessible to cs and deep learning beginners.
 - https://docs.fast.ai/tutorial.vision.html#Single-label-classification
 
-Code modification and additions
+#### Code modification and additions
 
 - Though this tutorial was followed, various significant modifications and additions to thecode           
   were neccessary to achieve the goals of this project. they include: 
@@ -67,7 +67,7 @@ online platform that makes building, using and manipulating deep learning algori
 more accessible to cs and deep learning beginners.
 - https://docs.fast.ai/tutorial.vision.html#Single-label-classification
 
-Code modification and additions
+#### Code modification and additions
 
 - Though this tutorial was followed, various significant modifications and additions to thecode           
   were neccessary to achieve the goals of this project. they include: 
@@ -108,7 +108,7 @@ python "Arch_Features_object_detection.ipynb"
       of guidance and advice when learning how to run, impliment and adapt the below 
       objectron 2 code for this project.
 
-Code modification and additions
+#### Code modification and additions
 
 - Though much of the code was provided by the facebook tutorial and Sage, various significant 
   modifications  and additions to thecode were neccessary to achieve the goals of this project. 
@@ -151,7 +151,7 @@ python "Sidewalks_Detectron2_object_detection.ipynb"
       of guidance and advice when learning how to run, impliment and adapt the below 
       objectron 2 code for this project.
 
-Code modification and additions
+#### Code modification and additions
 
 - Though much of the code was provided by the facebook tutorial and Sage, various significant 
   modifications  and additions to thecode were neccessary to achieve the goals of this project. 
@@ -168,7 +168,7 @@ Code modification and additions
 
 
 
-### Data
+## Data
 
 Summary:   
 
