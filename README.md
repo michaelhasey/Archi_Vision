@@ -10,7 +10,7 @@
 
 Archi_Vision is an AI tool that helps us learn more about urban housing and its relationship to the city.  Traditionally, housing data has been collected manually and contains few descriptors beyond house price, sqft, # of bathrooms,and so on.  As a result, housing remains largely undescribed and our understanding of its relationship to the city incomplete. Archi_Vision attempts to solve this by using Deep learning methods (object detection & classification) to rapidly extract far more detailed image-based housing data over larger areas than previously possible.
 
-![](Images/review.png)
+![](Images/Review.png)
 
 As proof of concept, I used Pittsburgh as a test area and trained my models on 750 hand-collected and labelled Google Street view images of working-class housing.  A a goal my project attempts to autonomously detect, analyze and record both standard visual housing data as well as new and novel info such as early signs of urban decline or gentrification including the presence or lack of abandoned buildings and the quality of sidewalks. Various concepts from class such as “Interpretability” and “Bias and Anonymity” were integrated.  In particular, the proposed GUI provides further ai transparency through white-box methods such as prediction and data visualizations and simple explanations, required human input to correct model prediction mistakes or uncertainties therefore building trust in the model, both baseline and expert model adjustment capabilities, therefore staisfying the needs of users with varying ai or cs knowledge, and easy to understand prompts and suggestions regarding determining the appropriate model and settings to satisfy particular goals.
 
