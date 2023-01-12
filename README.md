@@ -34,8 +34,6 @@ The proposed GUI provides further ai transparency through white-box methods such
 python "Vacancy_Image_Classification_Training_Model.ipynb"
 ```
 
-![](Images/vacancy_classifier.png)
-
 - A single label classification model used to train a convolutional neural network algorithm 
   to detect whether a house appears to be occupied or vacant.
 - The model is built upon the fastai framework and pytorch (pyimage) computer vision library
@@ -67,6 +65,8 @@ more accessible to cs and deep learning beginners.
 ```
 python "Vacancy_Image_Classification_Prediction_Model.ipynb"
 ```
+
+![](Images/vacancy_classifier.png)
 
 - A single label classification model that uses the weights obtained in training model (model 1) 
   to detect whether a house appears to be occupied or vacant.
