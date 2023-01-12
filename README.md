@@ -21,7 +21,7 @@ As proof of concept, I used Pittsburgh as a test area and trained my models on 7
 
 - [GUI](#GUI)
 - [Models](#Models)
-- [Model 1](#Model 1)
+- [Model 1](#Model1)
 - [Performance](#Performance)
 - [Acknowledgements](#Acknowledgements)
 - [References](#References)
