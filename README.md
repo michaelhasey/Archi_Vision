@@ -20,7 +20,11 @@ As proof of concept, I used Pittsburgh as a test area and trained my models on 7
 
 Summary:  4 different models were used for this experiment. 
 
-Model 1: Vacancy_Image_Classification_Training_Model.ipynb
+### Model 1: Untrained Image Classification Model
+
+```
+python "Vacancy_Image_Classification_Training_Model.ipynb"
+```
         - . 
         - A single label classification model used to train a convolutional neural network algorithm 
           to detect whether a house appears to be occupied or vacant.
@@ -46,8 +50,13 @@ Model 1: Vacancy_Image_Classification_Training_Model.ipynb
           transformations, batch sizes and learning rate
           to achieve best results.
           
-          
-Model 2: Vacancy_Image_Classification_Prediction_Model.ipynb
+ 
+ 
+### Model 2: Trained Image Classification Model for Identifying Vacant Houses
+
+```
+python "Vacancy_Image_Classification_Prediction_Model.ipynb"
+```
         - . 
         - A single label classification model that uses the weights obtained in training model (model 1) 
           to detect whether a house appears to be occupied or vacant.
@@ -67,9 +76,13 @@ Model 2: Vacancy_Image_Classification_Prediction_Model.ipynb
         - custom labelling and sorting tool that provides corresponding file and folder labels 
           depending on predicted class.
         - This allows easy identification of predicted class of all images after model has run
-        
-        
-Model 3: Arch_Features_object_detection.ipynb
+   
+   
+### Model 3: Trained Object Detection Model for Identifying Architectural Features
+
+```
+python "Arch_Features_object_detection.ipynb"
+```
         - . 
         - This model uses Objectron 2, Facebook AI Research's next generation software system 
           that implements state-of-the-art object detection algorithms to detect and predict the type of
@@ -109,8 +122,11 @@ Model 3: Arch_Features_object_detection.ipynb
           be used when making predictions and displaying results on image.
           
           
-          
-Model 4: Sidewalk_object_detection.ipynb
+### Model 3: Trained Object Detection Model for Identifying Deteriorating Sidewalks
+
+```
+python "Sidewalks_Detectron2_object_detection.ipynb"
+```
         - . 
         - This model uses Objectron 2, Facebook AI Research's next generation software system 
           that implements state-of-the-art object detection algorithms to predict and classify sidwalk quality
